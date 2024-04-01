@@ -5,11 +5,8 @@
     <classes>
       <class name="com.wizrspaceAPP.TestWizrspace">
         <methods>
-          <include name="backtomainlogin"/>
           <include name="changelogin"/>
-          <include name="recentpage"/>
           <include name="openlogin"/>
-          <include name="Listviewpage"/>
         </methods>
       </class> <!-- com.wizrspaceAPP.TestWizrspace -->
     </classes>

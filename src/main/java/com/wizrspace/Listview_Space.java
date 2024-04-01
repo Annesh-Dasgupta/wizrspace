@@ -1,6 +1,7 @@
 package com.wizrspace;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 
 public class Listview_Space extends Wizrspace {
@@ -27,6 +28,7 @@ public class Listview_Space extends Wizrspace {
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[2]")).click();
 		Thread.sleep(2000);
+		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[5]")).click();
 		super.scrolldownpage();
 		super.scrolluppage();
 		
@@ -34,16 +36,20 @@ public class Listview_Space extends Wizrspace {
 	public void LastmodifiedSort() throws InterruptedException {
 		driver.findElement(Lastmodified).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[2]")).click();
+		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[4]")).click();
 		Thread.sleep(2000);
 		super.scrolldownpage();
 		Thread.sleep(5000);
 		super.scrolluppage();
 	}
 	public void Sizesort() throws InterruptedException {
+		Thread.sleep(2000);
 		driver.findElement(Size).click();
 		Thread.sleep(2000);
+		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[2]")).click();
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[3]")).click();
+		Thread.sleep(2000);
 		super.scrolldownpage();
 		Thread.sleep(5000);
 		super.scrolluppage();
@@ -56,10 +62,12 @@ public class Listview_Space extends Wizrspace {
 		Thread.sleep(5000);
 	}
 	public void Typesort() throws InterruptedException {
-		Thread.sleep(5000);
 		driver.findElement(Type).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[4]")).click();
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("(//div[@style='cursor: pointer;'])[5]")).click();
+		Thread.sleep(5000);
 		super.scrolldownpage();
 		super.scrolluppage();
 	}
@@ -70,7 +78,7 @@ public class Listview_Space extends Wizrspace {
 		
 	}
 	public void openlistviewfile() throws InterruptedException {
-		driver.findElement(By.className("FileListView_ppt_icon__5LVoZ")).click();
+		driver.findElement(By.className("FileListView_image_body__G77OI")).click();
 		Thread.sleep(5000);
 		driver.findElement(Backopenview).click();
 	}
@@ -119,21 +127,48 @@ public class Listview_Space extends Wizrspace {
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("(//div[@class='ShareOption_input_div__lDzsH'])[3]")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//abbr[@aria-label='March 15, 2024']")).click();
-		Thread.sleep(5000);
+//		driver.findElement(By.xpath("//abbr[@aria-label='March 15, 2024']")).click();
+//		Thread.sleep(5000);
 		driver.findElement(By.xpath("(//div[@class='ShareOption_input_div__lDzsH'])[4]")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//button[@class='react-calendar__navigation__arrow react-calendar__navigation__next-button']")).click();
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//abbr[@aria-label='April 28, 2024']")).click();
+//		driver.findElement(By.xpath("//button[@class='react-calendar__navigation__arrow react-calendar__navigation__next-button']")).click();
+//		Thread.sleep(2000);
+		driver.findElement(By.xpath("//abbr[@aria-label='April 30, 2024']")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@class='ShareOption_inputbox__YGV_E']")).click();
-		Thread.sleep(5000);
-		driver.findElement(By.xpath("//input[@class='ShareOption_inputbox__YGV_E']")).sendKeys("123");
+		driver.findElement(By.xpath("//div[@class='CustomCalendar_apply__oNIW0']")).click();
+//		driver.findElement(By.xpath("//input[@class='ShareOption_inputbox__YGV_E']")).click();
+//		Thread.sleep(5000);
+//		driver.findElement(By.xpath("//input[@class='ShareOption_inputbox__YGV_E']")).sendKeys("123");
 		driver.findElement(By.className("ShareOption_copy_icon__yAngO")).click();
 		driver.findElement(By.xpath("//div[text()=' Done ']")).click();
 		Thread.sleep(10000);
 		
+	}
+	public void checkedfileTag() throws InterruptedException {
+		Thread.sleep(5000);
+		driver.findElement(By.xpath("//div[@class='PreviewOptionChecked_innerDiv__VOpwE'][4]")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[@class='Tags_addtext__bvW4_']")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.className("Tags_addtext__bvW4_")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.cssSelector("input#tag")).sendKeys(generateRandomId());
+		Thread.sleep(2000);
+		driver.findElement(By.cssSelector("input#tag")).sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
+		driver.findElement(By.id("Vector")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("Square")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.id("Premium")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[text()='+ New Color']")).click();
+		driver.findElement(By.cssSelector("input#hex_code")).sendKeys("1CF6F6");
+		Thread.sleep(2000);
+		driver.findElement(By.cssSelector(".Tags_save_icon__C6mQd")).click();
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//div[@class='Tags_add_button__Djvi4']")).click();
+		Thread.sleep(2000);
 	}
 	
 
