@@ -94,7 +94,7 @@ public class Wizrspace_Home extends Wizrspace {
 //		Thread.sleep(5000);
 		driver.findElement(By.xpath("(//div[@class='ShareOption_input_div__lDzsH'])[4]")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//abbr[@aria-label='March 30, 2024']")).click();
+		driver.findElement(By.xpath("//abbr[@aria-label='April 30, 2024']")).click();
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//div[@class='CustomCalendar_apply__oNIW0']")).click();
 		Thread.sleep(2000);
@@ -152,7 +152,10 @@ public class Wizrspace_Home extends Wizrspace {
 
 	}
 	public void tag_file() throws InterruptedException {
-		this.video_file_rightclick();
+		Thread.sleep(2000);
+		Actions action = new Actions(driver);
+		WebElement link = driver.findElement(By.xpath("(//div[@class='Main_Imagecontainer_mainDiv__FcHPO'])[1]"));
+		action.contextClick(link).perform();
 		Thread.sleep(2000);
 		driver.findElement(Tagoption).click();
 		Thread.sleep(2000);
@@ -201,9 +204,10 @@ public class Wizrspace_Home extends Wizrspace {
 	}
 	
 	public void duplicate_file() throws InterruptedException {
+		Thread.sleep(2000);
 		video_file_rightclick();
 		driver.findElement(Duplicateoption).click();
-		Thread.sleep(5000);
+		Thread.sleep(5000);  
 		
 		
 	}
@@ -213,11 +217,11 @@ public class Wizrspace_Home extends Wizrspace {
 		driver.findElement(Movetooption).click();
 		driver.findElement(By.xpath("//div[@class='MoveToOption_left_div__jTuXz']//span[1]")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.id("folderinput")).sendKeys("new55567");
+		driver.findElement(By.id("folderinput")).sendKeys("knight");
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[text()=' Create ']")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("//span[text()='new55567']")).click();
+		driver.findElement(By.xpath("//span[text()='knight']")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//div[text()=' Done ']")).click();
 //		Actions action = new Actions(driver);
@@ -266,9 +270,7 @@ public class Wizrspace_Home extends Wizrspace {
 
 	public void delete1() throws InterruptedException {
 		Thread.sleep(5000);
-		Actions action = new Actions(driver);
-		WebElement link = driver.findElement(By.xpath("(//div[@class='Main_Imagecontainer_image_box__9Co_T'])[1]"));
-		action.contextClick(link).perform();
+		video_file_rightclick();
 		Thread.sleep(5000);
 		driver.findElement(Deleteoption).click();
 		Thread.sleep(5000);

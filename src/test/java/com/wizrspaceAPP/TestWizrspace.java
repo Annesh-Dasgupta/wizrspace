@@ -32,7 +32,7 @@ public class TestWizrspace {
 
 	}
 	@Test(priority = 1)
-	public void login () {
+	public void login () throws InterruptedException {
 		Masterwizr mw = new Masterwizr(driver);
 		mw.loginmw();
 
@@ -55,7 +55,7 @@ public class TestWizrspace {
 //		wshome.addtoStarred(); //grid view lower modal
 //		wshome.delete(); //grid view lower modal
 		
-	}
+    }
 	@Test(priority = 4)
 	public void starredfile() throws InterruptedException {
 		wshome.starredfile();
@@ -127,7 +127,11 @@ public class TestWizrspace {
 		
 	}
 	@Test(priority = 21)
-	public void backtomainlogin() {
+	public void backtomainlogin() throws InterruptedException {
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://accounts.wizrapps.com/");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		Masterwizr mw = new Masterwizr(driver);
 		mw.loginmw();
 	}
@@ -135,7 +139,7 @@ public class TestWizrspace {
 	@Test(priority = 22)
 	public void recentpage() throws InterruptedException {
 		RecentPage rp = new RecentPage(driver);
-		rp.scrollrecent();
+//		rp.scrollrecent();
 	}
 		
 	@Test(priority =22)
@@ -151,14 +155,16 @@ public class TestWizrspace {
 	 Lvs.FilenameSort();
 	 Lvs.LastmodifiedSort();
 	 Lvs.Sizesort();
-	 Lvs.openlistviewfile();
+	 Lvs.clearfilter();
 	 Lvs.Typesort();
 	 Lvs.Fileownersort();
 	 Lvs.clearfilter();
 	 Lvs.differntviewfileupload();
+	 Lvs.openlistviewfile();
 	 Lvs.listviewmultiplefilecheck_addtoStarred();
 	 Lvs.listviewmultiplefilecheck_delete();
 	 Lvs.listviewmultiplefilecheck_share();
+	 Lvs.checkedfileTag();
  }
 
 

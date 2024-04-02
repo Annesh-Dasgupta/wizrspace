@@ -23,7 +23,7 @@ public class Wizrspace {
 	By Changefile = By.xpath("//label[@class='Uploadfile_add_file__goN_b']");
 	By Uploadfile_dropdown = By.xpath("//div[@class='Uploadfile_dropdown_icon__ar5Rd']");
 	By Custom_expire = By.xpath("(//div[@class='Uploadfile_date_div__HH2__ '])[4]");
-	By Selected_date = By.xpath("//abbr[@aria-label='March 30, 2024']");
+	By Selected_date = By.xpath("//abbr[@aria-label='April 30, 2024']");
 	By Apply_date = By.xpath("//div[@class='CustomCalendar_apply__oNIW0']");
 	By Cancel_upload = By.xpath("//div[@class='Uploadfile_cancel_button__FbUuT']");
 	By done_first = By.xpath("//div[@class='Uploadfile_button__D_7up Uploadfile_done__cXbJc']");
@@ -144,11 +144,11 @@ public class Wizrspace {
 		driver.findElement(fileupload).click();
 		By fileinput = By.xpath("//input[@id='file']");
 		Thread.sleep(2000);
-		driver.findElement(fileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\assasinscreed.jpg");
+		driver.findElement(fileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\crysis.jpg");
 		By changefileinput = By.xpath("//input[@id='myfile']");
 		Thread.sleep(2000);
 		driver.findElement(changefileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\mortal-kombat.jpg");
-		driver.findElement(changefileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\RIYAN PARAG.mp4");
+		driver.findElement(changefileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\file_example_WAV_1MG.wav");
 		driver.findElement(Uploadfile_dropdown).click();
 		Thread.sleep(2000);
 		driver.findElement(Custom_expire).click();
@@ -190,11 +190,11 @@ public class Wizrspace {
 		driver.findElement(fileupload).click();
 		By fileinput = By.xpath("//input[@id='file']");
 		Thread.sleep(2000);
-		driver.findElement(fileinput).sendKeys("C:\\Users\\annesh_d\\Desktop\\transformers.jpg");
+		driver.findElement(fileinput).sendKeys("C:\\\\Users\\\\Annesh\\\\Desktop\\\\mortal-kombat.jpg");
 		By changefileinput = By.xpath("//input[@id='myfile']");
 		Thread.sleep(2000);
-		driver.findElement(changefileinput).sendKeys("C:\\Users\\annesh_d\\Desktop\\transformers.jpg");
-		driver.findElement(changefileinput).sendKeys("C:\\Users\\annesh_d\\Desktop\\kkr.jpg");
+		driver.findElement(changefileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\Kolkata-Knight-Riders.jpg");
+		driver.findElement(changefileinput).sendKeys("C:\\\\Users\\\\Annesh\\\\Desktop\\\\RIYAN PARAG.mp4");
 		Thread.sleep(2000);
 		driver.findElement(Done_fileUpload).click();
 		Thread.sleep(2000);
