@@ -5,8 +5,13 @@
     <classes>
       <class name="com.wizrspaceAPP.TestWizrspace">
         <methods>
+<<<<<<< HEAD
           <include name="openlogin"/>
           <include name="Tag"/>
+=======
+          <include name="changelogin"/>
+          <include name="openlogin"/>
+>>>>>>> f60926c7f97d491bd52119b6bb708b45439c9679
         </methods>
       </class> <!-- com.wizrspaceAPP.TestWizrspace -->
     </classes>

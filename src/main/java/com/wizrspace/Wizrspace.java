@@ -144,11 +144,19 @@ public class Wizrspace {
 		driver.findElement(fileupload).click();
 		By fileinput = By.xpath("//input[@id='file']");
 		Thread.sleep(2000);
+<<<<<<< HEAD
 		driver.findElement(fileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\crysis.jpg");
 		By changefileinput = By.xpath("//input[@id='myfile']");
 		Thread.sleep(2000);
 		driver.findElement(changefileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\mortal-kombat.jpg");
 		driver.findElement(changefileinput).sendKeys("C:\\Users\\Annesh\\Desktop\\file_example_WAV_1MG.wav");
+=======
+		driver.findElement(fileinput).sendKeys("C:\\Users\\annesh_d\\\\Desktop\\Testimage.jpg");
+		By changefileinput = By.xpath("//input[@id='myfile']");
+		Thread.sleep(2000);
+		driver.findElement(changefileinput).sendKeys("C:\\Users\\annesh_d\\Desktop\\112352.jpg");
+		driver.findElement(changefileinput).sendKeys("C:\\Users\\annesh_d\\Desktop\\Testvideo.mp4");
+>>>>>>> f60926c7f97d491bd52119b6bb708b45439c9679
 		driver.findElement(Uploadfile_dropdown).click();
 		Thread.sleep(2000);
 		driver.findElement(Custom_expire).click();

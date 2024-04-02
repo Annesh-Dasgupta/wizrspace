@@ -18,7 +18,11 @@ public class Masterwizr {
 	By submitlogin = By.xpath("//button[@class='sc-kOPcWz bKaczs']");
 	
 	public void loginmw() throws InterruptedException {
+<<<<<<< HEAD
 		driver.findElement(login_email).sendKeys("avik@ascendeongroup.com");
+=======
+		driver.findElement(login_email).sendKeys("rimpa@ascendeongroup.com");
+>>>>>>> f60926c7f97d491bd52119b6bb708b45439c9679
 		Thread.sleep(5000);
 		driver.findElement(login_pass).sendKeys("Vsat1s23nl@");
 		Thread.sleep(5000);

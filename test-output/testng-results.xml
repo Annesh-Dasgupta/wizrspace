@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -84,6 +85,161 @@
           </reporter-output>
         </test-method> <!-- duplicatefile_allOptioncheck -->
         <test-method signature="Listviewpage()[pri:23, instance:com.wizrspaceAPP.TestWizrspace@141e5bef]" started-at="2024-04-02T09:41:24Z" name="Listviewpage" finished-at="2024-04-02T09:47:54Z" duration-ms="390488" status="PASS">
+=======
+<testng-results ignored="0" total="19" passed="18" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T11:25:51Z" name="Default suite" finished-at="2024-04-01T11:40:07Z" duration-ms="855674">
+    <groups>
+    </groups>
+    <test started-at="2024-04-01T11:25:51Z" name="Default test" finished-at="2024-04-01T11:40:07Z" duration-ms="855674">
+      <class name="com.wizrspaceAPP.TestWizrspace">
+        <test-method is-config="true" signature="openlogin()[pri:0, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:25:51Z" name="openlogin" finished-at="2024-04-01T11:25:58Z" duration-ms="7356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openlogin -->
+        <test-method signature="login()[pri:1, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:25:58Z" name="login" finished-at="2024-04-01T11:26:16Z" duration-ms="17564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="wizr_space()[pri:2, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:26:16Z" name="wizr_space" finished-at="2024-04-01T11:27:01Z" duration-ms="45466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wizr_space -->
+        <test-method signature="wizrspace_home()[pri:3, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:27:01Z" name="wizrspace_home" finished-at="2024-04-01T11:28:00Z" duration-ms="59086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wizrspace_home -->
+        <test-method signature="starredfile()[pri:4, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:28:00Z" name="starredfile" finished-at="2024-04-01T11:28:23Z" duration-ms="23008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starredfile -->
+        <test-method signature="Sharedfile()[pri:5, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:28:23Z" name="Sharedfile" finished-at="2024-04-01T11:29:32Z" duration-ms="68428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sharedfile -->
+        <test-method signature="share_via_link()[pri:6, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:29:32Z" name="share_via_link" finished-at="2024-04-01T11:29:46Z" duration-ms="14503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- share_via_link -->
+        <test-method signature="Renamefile()[pri:7, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:29:46Z" name="Renamefile" finished-at="2024-04-01T11:29:57Z" duration-ms="10522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Renamefile -->
+        <test-method signature="Tag()[pri:8, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:29:57Z" name="Tag" finished-at="2024-04-01T11:30:29Z" duration-ms="32380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tag -->
+        <test-method signature="enable_disable_comment()[pri:9, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:30:29Z" name="enable_disable_comment" finished-at="2024-04-01T11:30:34Z" duration-ms="4472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enable_disable_comment -->
+        <test-method signature="duplicate_file()[pri:10, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:30:34Z" name="duplicate_file" finished-at="2024-04-01T11:30:39Z" duration-ms="5369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicate_file -->
+        <test-method signature="view_comment()[pri:11, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:30:39Z" name="view_comment" finished-at="2024-04-01T11:30:44Z" duration-ms="5378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- view_comment -->
+        <test-method signature="file_properties()[pri:12, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:30:44Z" name="file_properties" finished-at="2024-04-01T11:31:37Z" duration-ms="52149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_properties -->
+        <test-method signature="delete_and_undo()[pri:13, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:31:37Z" name="delete_and_undo" finished-at="2024-04-01T11:31:52Z" duration-ms="15459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_and_undo -->
+        <test-method signature="movefile()[pri:14, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:31:52Z" name="movefile" finished-at="2024-04-01T11:32:13Z" duration-ms="21437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- movefile -->
+        <test-method signature="changelogin()[pri:20, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:32:13Z" name="changelogin" finished-at="2024-04-01T11:33:14Z" duration-ms="60491" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57039a23f567d0ee33f3b85c40c16361, findElement {using=id, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\annesh_d\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50746/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57039a23f567d0ee33f3b85c40c16361]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#password"}
+  (Session info: chrome=123.0.6312.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57039a23f567d0ee33f3b85c40c16361, findElement {using=id, value=password}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\annesh_d\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50746/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57039a23f567d0ee33f3b85c40c16361
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.wizrspace.Sharedlogin.shared_with_me(Sharedlogin.java:19)
+at com.wizrspaceAPP.TestWizrspace.changelogin(TestWizrspace.java:126)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changelogin -->
+        <test-method signature="backtomainlogin()[pri:21, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:33:14Z" name="backtomainlogin" finished-at="2024-04-01T11:33:38Z" duration-ms="23592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backtomainlogin -->
+        <test-method signature="duplicatefile_allOptioncheck()[pri:22, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:33:38Z" name="duplicatefile_allOptioncheck" finished-at="2024-04-01T11:33:38Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicatefile_allOptioncheck -->
+        <test-method signature="recentpage()[pri:22, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:33:38Z" name="recentpage" finished-at="2024-04-01T11:34:42Z" duration-ms="64294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recentpage -->
+        <test-method signature="Listviewpage()[pri:23, instance:com.wizrspaceAPP.TestWizrspace@363a52f]" started-at="2024-04-01T11:34:42Z" name="Listviewpage" finished-at="2024-04-01T11:40:07Z" duration-ms="324664" status="PASS">
+>>>>>>> f60926c7f97d491bd52119b6bb708b45439c9679
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Listviewpage -->
